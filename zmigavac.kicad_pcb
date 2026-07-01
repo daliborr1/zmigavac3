@@ -9604,7 +9604,7 @@
 		(at 191.01 59.5)
 		(descr "terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf")
 		(tags "THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm")
-		(property "Reference" "+ BT1 -"
+		(property "Reference" "BT1"
 			(at 2.25 -5.12 0)
 			(layer "F.SilkS")
 			(uuid "076bcede-7000-4dde-b85d-355ae0d6ec75")
@@ -9615,7 +9615,7 @@
 				)
 			)
 		)
-		(property "Value" "+ Battery_Cell -"
+		(property "Value" "Battery_Cell"
 			(at 2.25 4.92 0)
 			(layer "F.Fab")
 			(uuid "d5fe06ac-772b-4cc6-98d8-634055a40871")

@@ -5607,6 +5607,16 @@
 		)
 		(uuid "ffd4f1b6-846a-42aa-9b6a-b5e6f3e1a1a3")
 	)
+	(label "IZMENA GIT_HUB"
+		(at 118.11 34.29 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbdde279-d0f4-4975-945b-a98e9653a7d7")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 123.19 100.33 0)
@@ -9069,6 +9079,97 @@
 			(project "zmigavac"
 				(path "/8e1b5c4b-885d-467f-8a08-a986e4de03f0"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 226.06 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f13e51-48d4-4b0f-aa47-d10510805640")
+		(property "Reference" "D19"
+			(at 224.4725 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 224.4725 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 226.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 226.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a925db1-1147-40c7-8de0-40d1d9b830d9")
+		)
+		(pin "1"
+			(uuid "7062f527-856d-4896-bee6-2fea509ce056")
+		)
+		(instances
+			(project "zmigavac"
+				(path "/8e1b5c4b-885d-467f-8a08-a986e4de03f0"
+					(reference "D19")
 					(unit 1)
 				)
 			)
